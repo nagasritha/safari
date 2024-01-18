@@ -36,9 +36,11 @@ function AcoFeature() {
             </div>
 
             <div className="stats-item">
-                <MdOutlineVerifiedUser style={{color: "#00aff5",}} className='h-20 w-20 ml-32 ' />
-                <h2 className="text-[#374151] font-bold text-xl ml-20 md:ml-24">100% Verified Listings</h2> 
-                <h6 className="text-[#6B7280] text-[15px] md:text-sm md:mt-2 ml-2">We promise to deliver what you see on the website.</h6>           
+                <div className='align-center'>
+                <MdOutlineVerifiedUser style={{color: "#00aff5",}} className='image' />
+                </div>
+                <h2 className="text-[#374151] heading">100% Verified Listings</h2> 
+                <h6 className="text-[#6B7280] para">We promise to deliver what you see on the website.</h6>           
             </div>                 
 
     </div>

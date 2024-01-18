@@ -7,7 +7,7 @@ import './index.css'
 function TravelFeature() {
   return (
     <>
-    <div>
+    <div className='services-container'>
         <div className='service-heading'> Travel kar lo guys please ,ek baar kar lo</div>
         <div className='service-para'>Travel karna chahiye chahe man kare ya na kare per karna chahiye  </div>
         <div className="aco">
@@ -37,7 +37,7 @@ function TravelFeature() {
 
           <div className="stats-item">
               <div className="align-center">
-              <MdOutlineVerifiedUser style={{color: "#00aff5",}} className='h-20 w-20 ml-32 ' />
+              <MdOutlineVerifiedUser style={{color: "#00aff5",}} className='image' />
               </div>
               <h2 className="heading">100% Verified samosa </h2> 
               <h6 className="text-[#6B7280] para">We promise to deliver what you see on the website.</h6>           

@@ -11,7 +11,6 @@ import Bannar1 from '@/components/bannar/Bannar1'
 import Navbar from '@/components/navbar/Navbar'
 import Layout from '@/components/layout/Layout'
 
-
 function Home() {  
   return (
    
@@ -25,7 +24,6 @@ function Home() {
         <Bannar1/>
         <TravelFeature/> 
         <Faq/>
-
   </Layout>
        
         
