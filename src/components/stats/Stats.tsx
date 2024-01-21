@@ -49,9 +49,9 @@ function Stats() {
   };
 
   return (
-    <div className='stats-container my-36'>
+    <div className='lg:my-36'>
     <div className="stats" ref={containerRef}>
-        <div className="stats-item">
+        <div className="stats-item transition-all duration-300 hover:bg-gradient-to-t hover:from-blue-500 hover:to-white-500">
           <div className="align-center">
             <FaCity style={{color: "#00aff5",}} className="image" />
           </div>        
@@ -59,7 +59,7 @@ function Stats() {
             <h6 className="text-[#6B7280] para">Book your perfect place from an extensive list of options.</h6>           
         </div>
 
-        <div className="stats-item">
+        <div className="stats-item transition-all duration-300 hover:bg-gradient-to-t hover:from-blue-500 hover:to-white-500">
             <div className='align-center'>
             <RiCustomerService2Fill style={{color: "#00aff5",}} className='image' />
             </div>
@@ -67,7 +67,7 @@ function Stats() {
             <h6 className="text-[#6B7280] para">Book your perfect place from an extensive list of options.</h6>           
         </div>
 
-        <div className="stats-item">
+        <div className="stats-item transition-all duration-300 hover:bg-gradient-to-t hover:from-blue-500 hover:to-white-500">
             <div className='align-center'>
             <FaPeopleRoof style={{color: "#00aff5",}} className='image' />
             </div>

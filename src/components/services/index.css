@@ -1,16 +1,22 @@
 .services-container{
-margin:30px 10px 30px 30px;
+padding:30px 10px 30px 10px;
+}
+@media (min-width:600px) {
+    .services-container{
+        margin-left:20px;
+    }
 }
 .services-item{
     min-width:280px;
     max-width:280px;
-    height:auto;
+    min-height:180px;
+    max-height:180px;
     margin:20px;
     position:relative;
   }
 
-  .services-items{
-    width: 100vw;
+.services-items{
+    width: 100%;
     overflow: scroll; 
     scroll-behavior: smooth;
     display:flex;
@@ -20,6 +26,13 @@ margin:30px 10px 30px 30px;
 }
 .services-items::-webkit-scrollbar{
     width:0px;
+}
+
+.service-image{
+    min-width:280px;
+    max-width:280px;
+    min-height:180;
+    max-height:180px;
 }
 
 .service-heading{
@@ -49,24 +62,29 @@ margin:30px 10px 30px 30px;
         transform:scale(1.2);
         color:rgb(249, 11, 11);
     }
-    
 }
 @media(min-width:420px){
- .services-item{
+ .services-item.service-image{
     min-width:400px;
     max-width:400px;
+    min-height:200px;
+    max-height: 200px;
  }
 }
 @media(min-width:520px){
-    .services-item{
+    .services-item,.service-image{
        min-width:500px;
        max-width:500px;
+       min-height:300px;
+       max-height: 300px;
     }
    }
-@media(min-width:600px){
-.services-item{
+@media(min-width:500px){
+.services-item,.service-image{
     min-width:600px;
     max-width:600px;
+    min-height:300px;
+    max-height: 300px;
 }
 }
 .services-item-btn:hover {

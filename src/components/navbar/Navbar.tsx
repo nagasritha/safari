@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <>
-        <div className="mt-[-120px] w-full fixed z-10 ">
+        <div className="w-full fixed z-10 ">
             <div className='bg-[#142d55]  flex justify-between px-4' >
                 <div className='flex gap-2 p-2 md:ml-32 ' >
                 <IoCall style={{color: "#e0e0e0",}} className=' h-6 w-6' />

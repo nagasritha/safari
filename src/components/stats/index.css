@@ -1,7 +1,7 @@
 
 
 .stats{
-    width: 100vw;
+    width: 90vw;
     overflow: scroll; 
     scroll-behavior: smooth;
     display:flex;

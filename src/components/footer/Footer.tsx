@@ -9,7 +9,7 @@ function Footer() {
   
 
  
-  <div className="mx-6 py-10 text-center md:text-left">
+  <div className="md:mx-6 py-10 text-center md:text-left">
      <div className="footer-container">
    
       <div className='flex-sub-section'>
@@ -86,6 +86,7 @@ function Footer() {
             className="mb-4 flex font-semibold uppercase heading">
             Contact
           </h6>
+          <div className='content-items'>
           <p className="mb-4 flex box">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -138,6 +139,7 @@ function Footer() {
             </svg>
             + 01 234 567 89
           </p>
+          </div>
         </div>
       </div>
     </div>
@@ -160,8 +162,8 @@ function Footer() {
             <span></span>
           </div>
           
-          <div className="flex">
-            <a href="#!" className="mr-6 text-neutral-600 logo-color">
+          <div className="social-medias">
+            <a href="#!" className="mr-6 mb-6 text-neutral-600 logo-color">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4"
